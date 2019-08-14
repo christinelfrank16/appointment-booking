@@ -8,5 +8,7 @@ $(document).ready(function(){
     $(".modal").show();
     event.preventDefault();
   });
-
+  $(".close").click(function(){
+    $(".modal").hide();
+  });
 });
